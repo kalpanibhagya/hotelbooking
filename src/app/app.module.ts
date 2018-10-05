@@ -22,6 +22,9 @@ import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,10 @@ import { HomeComponent } from './home/home.component';
     AuthComponent,
     SigninComponent,
     SignupComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    SidenavListComponent,
+    NavtabsComponent
   ],
   imports: [
     BrowserModule,
